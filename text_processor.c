@@ -91,9 +91,7 @@ void output_in_lines(char *str, int n) {
             line_len = n;
         }
 
-        if (word != NULL && line_len == n) {
-            printf("\n");
-        }
+        if (word != NULL && line_len == n) printf("\n");
     }
 }
 
